@@ -1,0 +1,33 @@
+{% load static %}
+<html>
+
+<head>
+	<link rel="stylesheet" href="{% static 'css/s.css' %}">
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+	</script>
+	<script src="{% static 'js/account.js' %}">
+	</script>
+</head>
+
+<body>
+	<h1>Create an Account</h1>
+	<nav>
+		<n1><a href="/">Home</a></n1>
+		<n1><a href="/account">Create account</a></n1>
+		<n1><a href="/manage">Manage movie stock</a></n1>
+		<n1><a href="/rentreturn">Rent/Return movies</a></n1>
+	</nav>
+	<br>
+  <br>
+  <br>
+  <a>First Name:</a><br>
+  <input type="text" id="first"><br>
+  <a>Last Name:</a><br>
+  <input type="text" id="last"><br>
+  <a>Email Address:</a><br>
+  <input type="text" id="email"><br>
+  <e id="response"></e>
+  <br>
+  <button type="button" id="submit">Submit</button>
+</body>
+</html>

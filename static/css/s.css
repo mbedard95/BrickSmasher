@@ -1,0 +1,20 @@
+n1 {
+  float: left;
+}
+
+nav a {
+  display: block;
+  padding: 8px;
+  background-color: dimgrey;
+  color: white;
+  font-size: large;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: black;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
